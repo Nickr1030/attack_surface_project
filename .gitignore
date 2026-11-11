@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local database and runtime logs
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.log
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets/
+secrets.toml
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system files
+.DS_Store
+Thumbs.db
